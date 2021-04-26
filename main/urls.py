@@ -2,8 +2,7 @@ from django.urls import path
 from .views import TaskList,TaskDetail,TaskCreate,TaskUpdate,TaskDelete,CustomLoginView,RegisterView
 
 #using logout view without implementing it 
-#admin user name: abdel pass:KztikKztik
-#staff user name: user pass :Kztikation
+
 from django.contrib.auth.views import LogoutView
 
 
